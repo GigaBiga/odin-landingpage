@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto','Helvetica','sans serif';
+    margin: 0;
+}
+/* Nav Styling Start */
+nav{
+    background-color: #1f2937;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-buttons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.second-header{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/* Nav Styling End */
