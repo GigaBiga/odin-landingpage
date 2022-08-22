@@ -86,3 +86,23 @@ nav{
     max-width: 100%;
     box-sizing: border-box;
 }
+/* Image Section Styling End */
+
+/* Quote Section Styling Start */
+.quote{
+    background-color: #E5E7EB;
+    padding: 30px 30% 30px 30%;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+.quote-author{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: right;
+    margin-top: 0px;
+}
