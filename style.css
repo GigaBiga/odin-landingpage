@@ -7,9 +7,10 @@ body{
 
 .buttons{
     background-color: #3882f6;
-    padding: 6px 15px;
+    padding: 6px 20px;
     border-radius: 5px;
     text-decoration: none;
+    font-weight: bold;
 
 }
 /* Nav Styling Start */
@@ -105,4 +106,28 @@ nav{
     color: #1f2937;
     text-align: right;
     margin-top: 0px;
+}
+/* Quote Section Styling End */
+
+/* Call To Action Styling Start */
+.callaction{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 30px;
+    color: #E5E7EB;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.callaction h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+#callactionBut{
+    border: 2px solid #E5E7EB;
+    align-self: center;
+    color: #E5E7EB;
 }
