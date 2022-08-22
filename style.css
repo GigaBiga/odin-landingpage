@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto','Helvetica','sans serif';
     margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .buttons{
@@ -42,15 +44,17 @@ nav{
     justify-content: center;
     display: flex;
     padding: 50px;
-    width: 100vw;
+    width: 100%;
     height: 500px;
     gap: 10vw;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 .hero img{
-    width: 600px;
-    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 #HeroText{
     font-size: 48px;
@@ -59,3 +63,26 @@ nav{
 }
 /* Hero Styling End */
 
+/* Image Section Styling Start */
+#image-section-title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+.image-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    gap: 50px;
+    text-align: center;
+}
+.image-section img{
+    border: 5px solid #3882f6;
+    border-radius: 7px;
+    max-height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
