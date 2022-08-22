@@ -131,3 +131,11 @@ nav{
     align-self: center;
     color: #E5E7EB;
 }
+/* Call To Action Styling End */
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: #E5E7EB;
+}
